@@ -2,7 +2,6 @@
 
 ## **Professional Self-Assessment**
 
-
 My journey through Southern New Hampshire University's Computer Science program, which began in 2022, has been an incredibly transformative experience that shaped both my technical skills and professional identity. The curriculum provided a strong foundation in programming, software design, and secure system architecture while encouraging critical thinking and problem-solving. Developing this ePortfolio has given me the opportunity to reflect on that growth and highlight how my coursework, projects, and experiences have prepared me to enter the computer science field as a confident, capable developer. Each artifact included here represents not just technical mastery, but also my ability to design, collaborate, and communicate effectively in a professional environment.
 ### Core Competencies and Professional Development
 
@@ -15,6 +14,9 @@ My coursework in software engineering, databases, and cybersecurity strengthened
 ### Artifacts
 
 The three artifacts in this portfolio were carefully selected to demonstrate a diverse yet interconnected set of competencies across the computer science discipline, showcasing my evolution from classroom learning to production-ready development.
+
+inline-style:
+![Grazioso Salvare}(https://github.com/eriresendez/CS-499-Computer-Science-Capstone/blob/main/CS340/Original%20Files/Grazioso-Salvare-Logo.png)
 
 [Artifact One](https://github.com/eriresendez/CS-499-Computer-Science-Capstone/blob/main/CS340/Artifact%20One/Artifact_One_animal_shelter_CRUD.py) represents an enhancement of the Grazioso Salvare Dashboard that focuses on data engineering and end-user operational value. In this artifact, I transformed a MongoDB-dependent application into a portable, dependency-light solution by migrating from database queries to CSV-based data processing. This enhancement demonstrates my ability to assess architectural trade-offs and prioritize accessibility over complexity. Beyond the migration, I integrated professional reporting capabilities including multi-format export functionality (CSV, JSON, Excel) and sophisticated PDF report generation using ReportLab. The PDF reports feature structured layouts with rescue team statistics, operational metrics, and animal data tables, transforming raw data into actionable intelligence for field operations. This artifact showcases my understanding that software engineering isn't just about technical implementation; it's about delivering practical value to end users through thoughtful design decisions and clear documentation.
 
