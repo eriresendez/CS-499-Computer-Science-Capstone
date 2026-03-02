@@ -5,9 +5,48 @@
 
 Artifact one that was the Austin Animal Shelter Dashboard demonstrates full-stack architectural design. The original project, a Dash-based Python application backed by a CSV file, was functional but monolithic. Every piece of logic, data access, business rules, and UI rendering, existed in a single file. The enhanced version separates these concerns across a FastAPI backend and React frontend, introduces JWT-based role authentication with three distinct permission scopes, adds real-time WebSocket broadcasting, and validates all inputs through Pydantic v2 models before data reaches business logic. This artifact shows that I can design and build industry-standard systems that are maintainable, testable, and secure by construction.
 
-Artifact two is the Event Tracking Application which demonstrates applied algorithmic reasoning. The original application used ArrayList and linear search everywhere. The enhanced version replaces this with a composite data structure design, HashMap plus TreeMap, encapsulated in a dedicated EventManager class. This artifact shows that I can identify performance bottlenecks, select appropriate data structures, reason about trade-offs between lookup speed and memory usage, and handle the concurrency implications that arise when multiple threads access shared state.
+Original Dashboard: 
+
+
+<img width="619" height="647" alt="Screenshot 2025-10-24 at 9 33 39 PM" src="https://github.com/user-attachments/assets/68e05ba6-a172-4859-bf3b-ef378441a1e1" />
+<img width="2190" height="927" alt="Screenshot 2025-10-24 at 9 34 48 PM" src="https://github.com/user-attachments/assets/6ae144ee-6e4d-46b6-a4e0-8e3a5b25c7f2" />
+
+
+
+Current: 
+
+<img width="1870" height="1323" alt="Screenshot 2026-02-22 at 10 07 59 PM" src="https://github.com/user-attachments/assets/ed1869f1-fcc4-4514-bcac-a0fdc451d630" />
+
+
+Artifact two is the Event Tracking Application, which demonstrates applied algorithmic reasoning. The original application used ArrayList and linear search everywhere. The enhanced version replaces this with a composite data structure design, HashMap plus TreeMap, encapsulated in a dedicated EventManager class. This artifact shows that I can identify performance bottlenecks, select appropriate data structures, reason about trade-offs between lookup speed and memory usage, and handle the concurrency implications that arise when multiple threads access shared state.
+
+<img width="323" height="693" alt="Screenshot 2026-03-01 at 9 42 52 AM" src="https://github.com/user-attachments/assets/812d05f2-31a3-49f3-9425-54b4f7f9b2bb" />
+
+
+.
+
+
+<img width="324" height="689" alt="Screenshot 2026-03-01 at 9 43 15 AM" src="https://github.com/user-attachments/assets/d760fb7c-e7a1-4c33-ac72-adc1d29383e8" />
+
+.
+
+
+<img width="323" height="532" alt="Screenshot 2026-03-01 at 9 42 34 AM" src="https://github.com/user-attachments/assets/95a5db15-d473-492c-bede-af8b700ec482" />
 
 Artifact three also uses the Event Tracking Application. It demonstrates modern database architecture and security-minded data design. The original application used raw SQLite calls scattered throughout activity code, creating both a maintainability problem and a SQL injection vulnerability. The enhanced version migrates to Room Persistence Library with a full MVVM architecture, clearly defined Entity, DAO, Repository, and ViewModel layers, salted password hashing, entity-level input validation, per-user data isolation, and structured schema versioning with migration support. This artifact shows that I can design database layers that are not only efficient but proactively resistant to the categories of attack that unstructured data access enables.
+
+<img width="308" height="330" alt="Screenshot 2026-03-01 at 3 29 50 PM" src="https://github.com/user-attachments/assets/189042fd-2595-493d-9a49-4fde90597228" />
+
+.
+
+
+<img width="306" height="423" alt="Screenshot 2026-03-01 at 3 34 44 PM" src="https://github.com/user-attachments/assets/73a5607f-b83f-4ebe-ae1a-547e2329cb04" />
+
+
+.
+
+<img width="383" height="806" alt="Screenshot 2026-03-01 at 6 54 30 PM" src="https://github.com/user-attachments/assets/bf94fd7e-2637-45f9-9c92-a66c55902233" />
+
 
 Taken together, these three artifacts demonstrate that I can architect layered systems, reason about the algorithmic behavior of those systems under realistic load, and build the secure, validated data foundations those systems depend on. That combination, design thinking, algorithmic competence, and security-first data architecture, represents the professional profile I bring to the computer science field.
 
